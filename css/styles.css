@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.nav {
+    background-color: #4E598C;
+    padding-left: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ul-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 24px;
+    padding: 0 15px;
+}
+
+
+.ul-container li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    margin: 0 15px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.content-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.content-left, .content-right {
+    padding: 20px;
+}
+
+.content-left {
+    background-color: #F7FFF7;
+    width: 70%;
+}
+
+.content-right {
+    background-color: #4E598C;
+    color: #f4f4f4;
+    width: 30%;
+    text-align: center;
+}
+
+.content-naslov {
+    color: #FCAF58;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #4E598C;
+}
+
+.date-label {
+    background-color: #4E598C;
+    color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.link {
+    color: #f4f4f4;
+    margin: 5px 0;
+}
+
+.creator-container {
+    background-color: #4E598C;
+    color: #FCAF58;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.content2-container {
+    background-color: #F7FFF7;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content3-container {
+    background-color: #F7FFF7;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+.content4-container {
+    background-color: #F7FFF7;
+}
+
+
+table {
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+thead th {
+    background-color: #4E598C;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+tbody td {
+    background-color: #F7FFF7;
+    color: #333;
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.contact-container {
+    background-color: #F7FFF7;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    background-color: #f7f7f7;
+}
+
+.contact-container button {
+    background-color: #4E598C;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-container button:hover {
+    background-color: #3C4870;
+}
